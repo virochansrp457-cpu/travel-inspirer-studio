@@ -32,7 +32,7 @@ const Footer = () => {
             {/* Company info */}
             <div className="lg:col-span-1">
               <div className="text-3xl font-bold mb-6 text-background">
-                Anay Tours and Travels
+                Anay Tours & Travels
               </div>
               <p className="text-background/80 mb-6 leading-relaxed">
                 Your trusted travel companion for over years. We create extraordinary 
@@ -101,7 +101,7 @@ const Footer = () => {
                 <div className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-primary" />
                   <div className="text-background/80">
-                    travel@wanderlust.com
+                    travel@anaytours.com
                   </div>
                 </div>
               </div>
@@ -113,7 +113,7 @@ const Footer = () => {
         <div className="py-8 border-t border-background/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-background/60 text-sm">
-              © 2024 WanderLust. All rights reserved.
+              © 2024 Anay Tours & Travels. All rights reserved.
             </div>
             <div className="flex gap-6 text-sm">
               <a href="#" className="text-background/60 hover:text-background transition-colors">Privacy Policy</a>

@@ -31,7 +31,7 @@ const Header = () => {
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center gap-8">
             <div className="text-2xl font-bold text-primary">
-              WanderLust
+              Anay Tours & Travels
             </div>
             
             <nav className="hidden lg:flex items-center gap-6">
