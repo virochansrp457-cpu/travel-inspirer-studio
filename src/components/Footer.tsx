@@ -32,10 +32,10 @@ const Footer = () => {
             {/* Company info */}
             <div className="lg:col-span-1">
               <div className="text-3xl font-bold mb-6 text-background">
-                WanderLust
+                Anay Tours and Travels
               </div>
               <p className="text-background/80 mb-6 leading-relaxed">
-                Your trusted travel companion for over 25 years. We create extraordinary 
+                Your trusted travel companion for over years. We create extraordinary 
                 journeys that inspire, connect, and transform.
               </p>
               <div className="flex gap-4">
