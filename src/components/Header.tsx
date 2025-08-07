@@ -30,7 +30,7 @@ const Header = () => {
         {/* Main navigation */}
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center gap-8">
-            <div className="text-2xl font-bold text-primary">
+            <div className="text-xl md:text-2xl font-bold text-primary whitespace-nowrap">
               Anay Tours & Travels
             </div>
             
