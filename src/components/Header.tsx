@@ -83,8 +83,8 @@ const Header = () => {
 
         {/* Mobile menu */}
         {isMenuOpen && (
-          <div className="lg:hidden border-t py-4 bg-background/95 backdrop-blur-sm">
-            <nav className="flex flex-col gap-4">
+          <div className="lg:hidden absolute left-0 right-0 top-full border-t bg-background shadow-lg z-50">
+            <nav className="container mx-auto px-4 py-4 flex flex-col gap-4">
               <Button variant="ghost" className="justify-start">
                 India Tours
               </Button>
