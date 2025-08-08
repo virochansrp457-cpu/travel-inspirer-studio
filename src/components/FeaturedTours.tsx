@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Star, Clock, Users, MapPin } from "lucide-react";
+import culturalEuropeImage from "@/assets/cultural-europe.jpg";
 
 const tours = [
   {
@@ -25,7 +26,7 @@ const tours = [
     originalPrice: "₹2,25,000",
     rating: 4.9,
     reviews: 89,
-    image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?auto=format&fit=crop&w=800&q=80",
+    image: culturalEuropeImage,
     badge: "Premium",
     group: "Family Tours"
   },
