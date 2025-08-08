@@ -7,7 +7,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-background border-b sticky top-0 z-50 backdrop-blur-sm bg-background/95">
+    <header className="bg-background border-b sticky top-0 z-[100] backdrop-blur-sm bg-background/95">
       <div className="container mx-auto px-4 max-w-screen-xl overflow-hidden">
         {/* Top contact bar */}
         <div className="hidden md:flex items-center justify-between py-2 text-sm border-b">
@@ -23,7 +23,7 @@ const Header = () => {
           </div>
           <div className="flex items-center gap-4">
             <span>Business hours: 10AM - 7PM</span>
-            <span>travel@wanderlust.com</span>
+            <span>travel@anaytours.com</span>
           </div>
         </div>
 
@@ -83,7 +83,7 @@ const Header = () => {
 
         {/* Mobile menu */}
         {isMenuOpen && (
-          <div className="lg:hidden border-t py-4">
+          <div className="lg:hidden border-t py-4 bg-background/95 backdrop-blur-sm">
             <nav className="flex flex-col gap-4">
               <Button variant="ghost" className="justify-start">
                 India Tours

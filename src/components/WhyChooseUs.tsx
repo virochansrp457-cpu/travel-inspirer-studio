@@ -29,7 +29,7 @@ const WhyChooseUs = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Why Choose WanderLust?
+            Why Choose Anay Tours?
           </h2>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
             We don't just plan trips, we create memories that last a lifetime
@@ -58,7 +58,7 @@ const WhyChooseUs = () => {
         <div className="mt-20 text-center">
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 max-w-4xl mx-auto">
             <div className="text-white/90 text-xl md:text-2xl italic mb-6 leading-relaxed">
-              "WanderLust turned our dream vacation into reality. From the moment we contacted them 
+              "Anay Tours turned our dream vacation into reality. From the moment we contacted them 
               to the day we returned, everything was perfectly organized. The memories we created 
               will last a lifetime!"
             </div>
