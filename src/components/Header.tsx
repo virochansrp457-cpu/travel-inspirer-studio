@@ -28,26 +28,26 @@ const Header = () => {
         </div>
 
         {/* Main navigation */}
-        <div className="flex items-center justify-between py-4 gap-4">
-          <div className="flex items-center gap-4 lg:gap-8 min-w-0">
-            <div className="text-lg md:text-xl lg:text-2xl font-bold text-primary whitespace-nowrap flex-shrink-0">
+        <div className="flex items-center justify-between py-4 gap-2 md:gap-4">
+          <div className="flex items-center gap-2 md:gap-4 lg:gap-8 min-w-0 flex-1">
+            <div className="text-base md:text-lg lg:text-xl font-bold text-primary flex-shrink-0">
               Anay Tours & Travels
             </div>
             
-            <nav className="hidden lg:flex items-center gap-6">
-              <Button variant="ghost" className="text-foreground hover:text-primary">
+            <nav className="hidden lg:flex items-center gap-4 xl:gap-6">
+              <Button variant="ghost" className="text-foreground hover:text-primary text-sm whitespace-nowrap">
                 India Tours
               </Button>
-              <Button variant="ghost" className="text-foreground hover:text-primary">
+              <Button variant="ghost" className="text-foreground hover:text-primary text-sm whitespace-nowrap">
                 International
               </Button>
-              <Button variant="ghost" className="text-foreground hover:text-primary">
+              <Button variant="ghost" className="text-foreground hover:text-primary text-sm whitespace-nowrap">
                 Special Tours
               </Button>
-              <Button variant="ghost" className="text-foreground hover:text-primary">
+              <Button variant="ghost" className="text-foreground hover:text-primary text-sm whitespace-nowrap">
                 Custom Holidays
               </Button>
-              <Button variant="ghost" className="text-foreground hover:text-primary">
+              <Button variant="ghost" className="text-foreground hover:text-primary text-sm whitespace-nowrap">
                 Corporate
               </Button>
             </nav>
