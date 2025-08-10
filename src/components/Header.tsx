@@ -28,55 +28,55 @@ const Header = () => {
         </div>
 
         {/* Main navigation */}
-        <div className="flex items-center justify-between py-4 gap-2 md:gap-4">
-          <div className="flex items-center gap-2 md:gap-4 lg:gap-8 min-w-0 flex-1">
-            <div className="text-base md:text-lg lg:text-xl font-bold text-primary flex-shrink-0">
+        <div className="flex items-center justify-between py-4 gap-1 sm:gap-2 md:gap-4">
+          <div className="flex items-center gap-1 sm:gap-2 md:gap-4 lg:gap-8 min-w-0 max-w-[60%] lg:max-w-none">
+            <div className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-primary truncate sm:whitespace-nowrap">
               Anay Tours & Travels
             </div>
             
-            <nav className="hidden lg:flex items-center gap-4 xl:gap-6">
-              <Button variant="ghost" className="text-foreground hover:text-primary text-sm whitespace-nowrap">
+            <nav className="hidden xl:flex items-center gap-3">
+              <Button variant="ghost" className="text-foreground hover:text-primary text-xs px-2 whitespace-nowrap">
                 India Tours
               </Button>
-              <Button variant="ghost" className="text-foreground hover:text-primary text-sm whitespace-nowrap">
+              <Button variant="ghost" className="text-foreground hover:text-primary text-xs px-2 whitespace-nowrap">
                 International
               </Button>
-              <Button variant="ghost" className="text-foreground hover:text-primary text-sm whitespace-nowrap">
+              <Button variant="ghost" className="text-foreground hover:text-primary text-xs px-2 whitespace-nowrap">
                 Special Tours
               </Button>
-              <Button variant="ghost" className="text-foreground hover:text-primary text-sm whitespace-nowrap">
+              <Button variant="ghost" className="text-foreground hover:text-primary text-xs px-2 whitespace-nowrap">
                 Custom Holidays
               </Button>
-              <Button variant="ghost" className="text-foreground hover:text-primary text-sm whitespace-nowrap">
+              <Button variant="ghost" className="text-foreground hover:text-primary text-xs px-2 whitespace-nowrap">
                 Corporate
               </Button>
             </nav>
           </div>
 
-          <div className="flex items-center gap-2 md:gap-4 flex-shrink-0">
-            <div className="hidden md:flex items-center relative">
+          <div className="flex items-center gap-1 sm:gap-2 md:gap-3 flex-shrink-0">
+            <div className="hidden lg:flex items-center relative">
               <Input 
                 placeholder="Search destinations..." 
-                className="pr-10 w-48 lg:w-64"
+                className="pr-10 w-40 xl:w-48"
               />
               <Search className="absolute right-3 w-4 h-4 text-muted-foreground" />
             </div>
             
-            <Button variant="ghost" size="icon" className="flex-shrink-0">
-              <User className="w-5 h-5" />
+            <Button variant="ghost" size="icon" className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10">
+              <User className="w-4 h-4 sm:w-5 sm:h-5" />
             </Button>
             
-            <Button className="hidden md:inline-flex travel-button flex-shrink-0">
+            <Button className="hidden sm:inline-flex travel-button flex-shrink-0 text-xs sm:text-sm px-2 sm:px-4">
               Book Now
             </Button>
 
             <Button 
               variant="ghost" 
               size="icon" 
-              className="lg:hidden flex-shrink-0"
+              className="xl:hidden flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
-              <Menu className="w-5 h-5" />
+              <Menu className="w-4 h-4 sm:w-5 sm:h-5" />
             </Button>
           </div>
         </div>
